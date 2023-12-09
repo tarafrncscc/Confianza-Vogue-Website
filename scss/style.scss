@@ -1,0 +1,126 @@
+/*********************************************************************************
+
+	Template Name: Confianza & Vogue Template
+	Note: This is Style Css Here.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ variables
+	|	|___ mixins
+	|	|___ reset
+	|	|___ typography
+	|	|___ extend
+	|	|___ animations
+	|	|___ shortcode
+	|	|___ spacing
+	|
+	|
+	|___Header Styles
+	|	|___ header
+	|	|___ light-version
+	|	|___ navigation
+	|	|___ mobilemenu
+	|	|___ megamenu
+	|
+	|
+	|___Elememts Styles
+	|	|___ button 
+	|	|___ section-title
+	|	|___ sustainability
+	|	|___ pagination
+	|	|___ service
+	|	|___ video
+	|	|___ team
+	|
+	|___Product Styles
+	|	|___ product 
+	|	|___ tab 
+	|	|___ product-details 
+	|	|___ shop-sidebar
+	|
+	|___Template Styles
+	|	|___ slider 
+	|	|___ banner 
+	|	|___ blog-details 
+	|	|___ about 
+	|
+	|___Footer Styles
+	|	|___ footer 
+	|
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/animations';
+@import 'default/shortcode';
+@import 'default/spacing';
+
+
+/**************************************
+	Header Styles
+***************************************/
+@import 'header/header';
+@import 'header/light-version';
+@import 'header/navigation';
+@import 'header/mobilemenu';
+@import 'header/megamenu';
+
+
+
+
+
+/**************************************
+	Elements Styles
+***************************************/
+@import 'elements/button';
+@import 'elements/section-title';
+@import 'elements/blog';
+@import 'elements/pagination';
+@import 'elements/service';
+@import 'elements/video';
+@import 'elements/team';
+
+
+
+/**************************************
+	Product Styles
+***************************************/
+@import 'product/product';
+@import 'product/best-rating';
+@import 'product/tab';
+@import 'product/product-details';
+
+
+
+/**************************************
+	Template Styles
+***************************************/
+@import 'template/slider';
+@import 'template/banner';
+@import 'template/blog-details';
+@import 'template/about';
+
+
+
+/**************************************
+	Footer Styles
+***************************************/
+@import 'footer/footer';
